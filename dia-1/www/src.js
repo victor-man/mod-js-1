@@ -26,6 +26,6 @@
      console.log(i);
  } */
 
- for(let i = 100; i >=0; i -= 25){
+/*  for(let i = 100; i >=0; i -= 25){
      console.log(i);
- }
+ } */
