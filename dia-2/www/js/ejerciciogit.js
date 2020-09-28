@@ -106,15 +106,16 @@ async function usd_to_eur(url){
     console.log(`${quantity}$ son ${conversion}e`); 
 }
  usd_to_eur(url_usd) */
-
+/* 
 async function searchFilms(words, page){
-    const response = await fetch( https:'//www.episodate.com/api/search?q=${word}&page=${page}');
+    const response = await fetch(`https://www.episodate.com/api/search?q=${word}&page=${page}`);
     const data = await response.json();
     return data.tv_shows;
 }
 
 (async() => {
-    const myWord = prompt('introduce')
-    const result = await searchFilms();
+    const myWord = prompt('introduce terminos de busqueda')
+    const myPage = prompt('introduce página')
+    const result = await searchFilms(myWord, myPage);
     console.log(result);
-})();
+})(); */
